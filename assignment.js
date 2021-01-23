@@ -1,4 +1,4 @@
-//
+//https://github.com/syed-muhimin-anam/3rd-assignment
 
 function kilometerToMeter(kilometer){
     if (typeof(kilometer) != "number" || kilometer < 0){
@@ -7,9 +7,7 @@ function kilometerToMeter(kilometer){
     var meter = kilometer * 1000;
     return meter;
 }
-var result = kilometerToMeter(27);
-console.log(result);
- 
+
 
 //second problem:
 
@@ -26,8 +24,6 @@ function budgetCalculator(ghori, phone ,laptop){
     var totalCost = ghoriCost + phoneCost + laptopCost; /**total budget */
     return totalCost;
 }
-var totalBudget = budgetCalculator(10,7,5);
-console.log(totalBudget);
 
 
 //third problem:
@@ -56,9 +52,6 @@ function hotelCost(days){
     return cost;
 }
 
-var totalMoneySpend = hotelCost(37);
-console.log(totalMoneySpend);
-
 
 
 //fourth problem:
@@ -76,5 +69,3 @@ function megaFriend(name){
     }
     return largeName;
 }
-var largestName = megaFriend( ['anam','urmi','mashuk','nur','himu','tuba']);
- console.log(largestName);
